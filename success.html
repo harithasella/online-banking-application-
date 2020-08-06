@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>home page</title>
+	</head>
+	<body bgcolor="#FFFFFF">
+		<form>
+			<center>
+				BANKING TRANSACTIONS <br>  <br>
+				<input type="button" id="idname" value = "Transfer fund " onclick="goToInfo()"/><br>
+				<input type="button" id="idname1" value = "View Accounts" onclick="goToInfo1()"/><br>
+			</center>  
+		</form>
+
+		<script type="text/javascript">
+			function goToInfo()
+			{
+				window.location = 'http://localhost:8080/Prasanthi/fundstransfer.html';
+			}
+			function goToInfo1(){
+				window.location = 'http://localhost:8080/Prasanthi/data.jsp';
+			}
+        </script>
+	</body>
+</html>

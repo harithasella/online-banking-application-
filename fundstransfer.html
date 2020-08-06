@@ -1,0 +1,49 @@
+<HTML>
+<HEAD>
+  <title>TRANSACTION DETAILS</title>
+</HEAD>
+    <BODY bgcolor="#FFFFF">
+ <center>
+  <TABLE style="background-color: #FFFFF;" WIDTH="40%" >
+  <TR>
+	<TH width="40%">ACCOUNT HOLDER NAME</TH>
+	 <TD width="40%"><INPUT TYPE="text" NAME="account_holder"></TD>
+	  </TR>
+          
+	   <TR>
+	         <TH width="40%">ACCOUNT NUMBER</TH>
+		 <TD width="40%"><INPUT TYPE="number" NAME="account_number"></TD>
+	  </TR>
+
+	  <TR>
+	         <TH width="40%">AMOUNT</TH>
+		 <TD width="40%"><INPUT TYPE="number" NAME="amount_transfer"></TD>
+	  </TR>
+	  	 
+
+ </center>
+ <br>
+ <br>
+
+<center>
+	<form>
+	<TR><TH width="40%">Click  On Submit</TH><BR>
+	<TD>
+        <input type="button" id="idname" value = "submit " onclick="goToInfo()"/><br>
+	</TD>
+	</TR>
+	</form>
+</center>
+	<script type="text/javascript">
+        function goToInfo(){
+	window.location = 'http://localhost:8080/Prasanthi/moneytransfer.jsp';
+
+        }
+
+
+    	</script>
+        
+</TABLE>
+
+</BODY>
+</HTML>
